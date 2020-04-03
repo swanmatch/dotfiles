@@ -12,3 +12,5 @@ alias duh='du -h $*'
 alias duh1='du -h --max-depth=1 $*'
 
 alias dfh='df -h $*'
+
+alias freeh='free -h $*'
