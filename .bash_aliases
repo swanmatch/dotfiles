@@ -2,9 +2,7 @@ alias ..='cd ..'
 
 alias lsa='ls -a $*'
 alias lsh='ls -h $*'
-alias lla='ll -a $*'
-alias llh='ll -ah $*'
-alias llah='ll -ah $*'
+alias llh='ll -h $*'
 
 alias rf='rm -rf $*'
 alias cpr='cp -r $*'
