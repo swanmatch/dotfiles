@@ -1,0 +1,10 @@
+[user]
+  email = swanmatch@yahoo.co.jp
+  name = swanmatch
+[core]
+  editor = vim -c \"set fenc=utf-8\"
+  excludesfile = ~/.gitignore
+[color]
+  diff = auto
+  status = auto
+  branch = auto
