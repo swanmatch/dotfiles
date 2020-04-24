@@ -37,6 +37,8 @@ call neobundle#begin(expand('~/.vim/bundle'))
   NeoBundle 'xolox/vim-session', { 'depends' : 'xolox/vim-misc' }
   " 自動でset :paste(autoindent無効)
   NeoBundle 'ConradIrwin/vim-bracketed-paste'
+  " slim sintax
+  NeoBundle 'slim-template/vim-slim'
 call neobundle#end()
 
 " 読み込んだプラグインも含め、ファイルタイプの検出、ファイルタイプ別プラグイン/インデントを有効化する
