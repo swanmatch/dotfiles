@@ -160,8 +160,8 @@ set noswapfile
 " set directory=$HOME/vimbackup
 " ファイル保存ダイアログの初期ディレクトリをバッファファイル位置に設定
 " set browsedir=buffer
-" クリップボードをWindowsと連携
-set clipboard=unnamed
+" クリップボードをOSと連携
+set clipboard=unnamedplus
 " タブの代わりに空白文字を挿入する
 set expandtab
 " 変更中のファイルでも、保存しないで他のファイルを表示
@@ -274,6 +274,7 @@ nnoremap <c-R>c :RTcontroller<CR>
 nnoremap [fugitive]  <Nop>
 nmap :G [fugitive]
 nnoremap [fugitive]p :GitGutterPreviewHunk<CR>
+noremap [fugitive]u :GitGutterUndoHunk<CR>
 nnoremap [fugitive]s :Gstatus<CR><C-w>T
 nnoremap [fugitive]a :Gwrite<CR>
 nnoremap [fugitive]c :Gcommit-v<CR>
