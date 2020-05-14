@@ -7,6 +7,9 @@ sudo apt install git vim terminator cairo-dock cairo-dock-gnome-integration-plug
 wget https://raw.githubusercontent.com/swanmatch/dotfiles/master/.bash_aliases
 wget https://raw.githubusercontent.com/swanmatch/dotfiles/master/.vimrc
 wget https://raw.githubusercontent.com/swanmatch/dotfiles/master/.inputrc
+wget https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh
+sh install.sh
+rm -f install.sh
 sudo timedatectl set-local-rtc true
 ```
 
